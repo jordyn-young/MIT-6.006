@@ -18,7 +18,9 @@
     the user for a place to save the result.  It also takes the following
     command-line arguments:
 
+        ```python
         python generate.py [<filename> [<rows> <columns> [<maximum>]]]
+        ```
     
     * The first command-line argument, <filename>, specifies the output file.
     The next two command-line arguments, <rows> and <columns>, must both be
@@ -44,7 +46,9 @@
     It also takes a single optional argument (the filename to read the matrix
     from):
 
+        ```python
         python main.py [<filename>]
+        ```
 * peak.py
     * This file contains the code for constructing a PeakProblem object, and a
     number of methods that can be called on such a problem.  These methods are
