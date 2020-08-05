@@ -19,8 +19,8 @@
     command-line arguments:
 
         python generate.py [<filename> [<rows> <columns> [<maximum>]]]
-
-    The first command-line argument, <filename>, specifies the output file.
+    
+    * The first command-line argument, <filename>, specifies the output file.
     The next two command-line arguments, <rows> and <columns>, must both be
     specified for either one to be read.  The fourth and final command-line
     argument, <maximum>, specifies the maximum number that can be generated
@@ -39,7 +39,7 @@
             trace.jsonp.  These traces can be examined by displaying the file
             visualizer.html in a browser.
 
-    When run with no arguments (such as when run in IDLE), main.py prompts
+    * When run with no arguments (such as when run in IDLE), main.py prompts
     the user for a file name to read the matrix from, defaulting to problem.py.
     It also takes a single optional argument (the filename to read the matrix
     from):
